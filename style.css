@@ -1,6 +1,7 @@
 * {
   margin-left: 10px;
-  /* box-sizing: border-box;  */
+  box-sizing: border-box;
+  width: 1900;
 }
 
 header {
@@ -395,8 +396,6 @@ h3 {
   background: #fff;
 }
 
-/* 
-
 .tourz_types {
   width: 1000;
   height: 540;
@@ -421,4 +420,260 @@ h3 {
   top: 15px;
   padding: 19.5px 20px 19.5px 20px;
   gap: 0px;
-} */
+}
+
+.first_box {
+  background: #ffffff;
+  width: 150px;
+  height: 170.5px;
+  top: 95px;
+  left: 15px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+}
+.sec_box {
+  background: #ffffff;
+  width: 150px;
+  height: 170.5px;
+  top: 95px;
+  left: 15px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+
+.last_box {
+  background: #ffffff;
+  width: 150px;
+  height: 170.5px;
+  top: 95px;
+  left: 15px;
+  gap: 0px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  margin-top: -200px;
+}
+
+.we_box {
+  display: flex;
+}
+
+.wemake_img {
+  margin-left: 40px;
+  top: 10px;
+}
+
+.numb {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  color: #eb662b;
+  text-align: center;
+}
+
+.destination {
+  color: black;
+  font-size: 0.4em;
+  text-align: start;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.container_customerreview {
+  background: #fbfbfb;
+}
+.review_head {
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: #05073c;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 600px;
+}
+
+.blockquote_img {
+  margin-left: 650px;
+}
+
+blockquote {
+  margin-left: 400px;
+}
+
+.Ali {
+  margin-left: 650px;
+}
+.product_manager {
+  margin-left: -45px;
+}
+
+.reviewers {
+  margin-left: 450px;
+  margin-bottom: 0px;
+}
+
+.travel_articles {
+  background-color: #f5f5f5;
+}
+.all_safaris {
+  display: flex;
+}
+
+.tour_date {
+  color: #424594;
+  font-size: 12px;
+  font-weight: 550;
+}
+
+.safaris {
+  color: #05073c;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.travelarticle_head {
+  color: #05073c;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  padding-top: 140px;
+  margin-top: 0;
+}
+
+.safariimage_overlay {
+  width: 65px;
+  height: 36.25px;
+  padding: 0px;
+  padding-left: 3px;
+  padding-top: 10.5px;
+  gap: 0px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  margin-top: -280px;
+  margin-left: 22px;
+  position: absolute;
+  border-radius: 12px;
+}
+
+.safariimage_overlay2 {
+  width: 65px;
+  height: 36.25px;
+  padding: 0px;
+  padding-left: 3px;
+  padding-top: 10.5px;
+  gap: 0px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  margin-top: -265px;
+  margin-left: 22px;
+  position: absolute;
+}
+
+.safariimage_overlay3 {
+  width: 65px;
+  height: 36.25px;
+  padding: 0px;
+  padding-left: 3px;
+  padding-top: 10.5px;
+  gap: 0px;
+  border-radius: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  margin-top: -265px;
+  margin-left: 22px;
+  position: absolute;
+}
+.special_offers {
+  background-color: #ffffff;
+}
+.special {
+  color: #05073c;
+  font-family:sans-serif; "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.discover{
+  color: #05073c;
+  font-family:sans-serif; "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 900px;
+}
+
+.world_best {
+  text-align: center;
+  color:#05073C;
+
+}
+
+.product_logo{
+  margin-left: 400px;
+}
+
+.subscribe{
+  background-image: url(asset/image/subscribe_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment:scroll;
+  height: 100vh;
+  margin-bottom: 0px;
+}
+
+.subscribetext{
+  font-size: 27.5px;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-top: 400px;
+  margin-left: 150px;
+  position: absolute;
+  color:  #05073C;
+  width: 483.58px;
+height: 112px;
+
+gap: 0px;
+}
+
+.footer{
+  background: #05073C;
+  height: 1000px;
+
+}
+
+.expert {
+  display: flex;
+  justify-content: space-around;
+}
+
+.follow_toptext {
+  color: #ffffff;
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+hr{
+  border: 1px solid gray;
+}
+
+.copyright{
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  margin: 0px;
+  padding: 0;
+}
+
+.logo_images{
+margin-right: 40px;
+padding: opx;;
+}
