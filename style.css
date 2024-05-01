@@ -10,6 +10,8 @@ header {
   margin-left: 20px;
   justify-content: space-around;
   padding: 20px;
+  background: #FEF7F4;
+
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -459,6 +461,7 @@ h3 {
 
 .we_box {
   display: flex;
+  height: 100px;
 }
 
 .wemake_img {
@@ -627,7 +630,8 @@ blockquote {
   background-size: auto;
   background-attachment:scroll;
   height: 100vh;
-  margin-bottom: 0px;
+  margin-bottom: -120px;
+  padding-top: 0px;
 }
 
 .subscribetext{
@@ -647,12 +651,15 @@ gap: 0px;
 .footer{
   background: #05073C;
   height: 1000px;
+  margin-top: 0;
 
 }
 
 .expert {
   display: flex;
   justify-content: space-around;
+  color: #fff;
+  padding-top: 100px;
 }
 
 .follow_toptext {
@@ -662,7 +669,32 @@ gap: 0px;
 }
 
 hr{
-  border: 1px solid gray;
+  border: 0.1px solid  rgb(151, 150, 150)
+}
+
+.footer-section {
+  display: flex;
+  padding-left: 50px;
+}
+.footer-content{
+  color: #fff;
+  display: flex;
+  flex-direction:column;
+  width:500px;
+  padding-top: 100px;
+}
+
+#input{
+  height:60px;
+  width: 300px;
+  border-radius: 20px;
+}
+
+.fade{
+  color: gray;}
+
+.send{
+  color: black;
 }
 
 .copyright{
@@ -676,4 +708,9 @@ hr{
 .logo_images{
 margin-right: 40px;
 padding: opx;;
+}
+
+.footer_logo{
+  padding: 0px;
+  margin: -2px;
 }
